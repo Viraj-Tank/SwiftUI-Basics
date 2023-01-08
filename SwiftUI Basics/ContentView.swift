@@ -5,7 +5,9 @@ struct ContentView: View {
     
     let colorList1 : [Color] = [.purple,.yellow,.red,.green]
     let colorList2 : [Color] = [.black, .white , .blue]
-    @State var screenTapped: Bool = false
+    @State private var screenTapped: Bool = false
+    @State private var offSetY: CGFloat = -300.0
+    @State private var offSetX: CGFloat = 50.0
     
     var body: some View {
         ZStack {
@@ -15,6 +17,7 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(.black)
+                    .offset(x: offSetX, y: offSetY)
             }.padding()
         }
         .ignoresSafeArea()
@@ -22,6 +25,16 @@ struct ContentView: View {
         .onTapGesture {
             //change screen color
             screenTapped.toggle()
+            withAnimation(.easeIn(duration: 0.5)) {
+                if screenTapped {
+                    offSetY = -300
+                    offSetX = 50
+                } else {
+                    offSetY = 0
+                    offSetX = 0
+                }
+                
+            }
         }
     }
 }
