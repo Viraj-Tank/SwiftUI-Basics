@@ -16,6 +16,10 @@
 		9883364D296A9BEE00A8D1D6 /* ImagesView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883364C296A9BEE00A8D1D6 /* ImagesView2.swift */; };
 		9883364F296A9D6F00A8D1D6 /* ImagesView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883364E296A9D6F00A8D1D6 /* ImagesView3.swift */; };
 		98833651296AA0DE00A8D1D6 /* ImagesView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833650296AA0DE00A8D1D6 /* ImagesView4.swift */; };
+		98833653296AA4E500A8D1D6 /* AsyncedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833652296AA4E500A8D1D6 /* AsyncedImage.swift */; };
+		98833655296AA65600A8D1D6 /* AsycnedImage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833654296AA65600A8D1D6 /* AsycnedImage2.swift */; };
+		98833657296AB11F00A8D1D6 /* AsyncedImage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833656296AB11F00A8D1D6 /* AsyncedImage3.swift */; };
+		98833659296AB2F600A8D1D6 /* AsyncedImage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833658296AB2F600A8D1D6 /* AsyncedImage4.swift */; };
 		98C6BB1E2967B13F008D415F /* SwiftUI_BasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C6BB1D2967B13F008D415F /* SwiftUI_BasicsApp.swift */; };
 		98C6BB202967B13F008D415F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C6BB1F2967B13F008D415F /* ContentView.swift */; };
 		98C6BB222967B141008D415F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C6BB212967B141008D415F /* Assets.xcassets */; };
@@ -32,6 +36,10 @@
 		9883364C296A9BEE00A8D1D6 /* ImagesView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView2.swift; sourceTree = "<group>"; };
 		9883364E296A9D6F00A8D1D6 /* ImagesView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView3.swift; sourceTree = "<group>"; };
 		98833650296AA0DE00A8D1D6 /* ImagesView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView4.swift; sourceTree = "<group>"; };
+		98833652296AA4E500A8D1D6 /* AsyncedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncedImage.swift; sourceTree = "<group>"; };
+		98833654296AA65600A8D1D6 /* AsycnedImage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsycnedImage2.swift; sourceTree = "<group>"; };
+		98833656296AB11F00A8D1D6 /* AsyncedImage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncedImage3.swift; sourceTree = "<group>"; };
+		98833658296AB2F600A8D1D6 /* AsyncedImage4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncedImage4.swift; sourceTree = "<group>"; };
 		98C6BB1A2967B13F008D415F /* SwiftUI Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Basics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C6BB1D2967B13F008D415F /* SwiftUI_BasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicsApp.swift; sourceTree = "<group>"; };
 		98C6BB1F2967B13F008D415F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +68,10 @@
 				9883364C296A9BEE00A8D1D6 /* ImagesView2.swift */,
 				9883364E296A9D6F00A8D1D6 /* ImagesView3.swift */,
 				98833650296AA0DE00A8D1D6 /* ImagesView4.swift */,
+				98833652296AA4E500A8D1D6 /* AsyncedImage.swift */,
+				98833654296AA65600A8D1D6 /* AsycnedImage2.swift */,
+				98833656296AB11F00A8D1D6 /* AsyncedImage3.swift */,
+				98833658296AB2F600A8D1D6 /* AsyncedImage4.swift */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -177,13 +189,17 @@
 			files = (
 				98C6BB202967B13F008D415F /* ContentView.swift in Sources */,
 				98833651296AA0DE00A8D1D6 /* ImagesView4.swift in Sources */,
+				98833657296AB11F00A8D1D6 /* AsyncedImage3.swift in Sources */,
+				98833655296AA65600A8D1D6 /* AsycnedImage2.swift in Sources */,
 				98833642296A77DD00A8D1D6 /* GridBasics2.swift in Sources */,
 				98833647296A935300A8D1D6 /* ImagesView.swift in Sources */,
 				98833644296A7EC800A8D1D6 /* NavigationView.swift in Sources */,
+				98833653296AA4E500A8D1D6 /* AsyncedImage.swift in Sources */,
 				9883364F296A9D6F00A8D1D6 /* ImagesView3.swift in Sources */,
 				98833640296A775A00A8D1D6 /* GridBasics.swift in Sources */,
 				98C6BB1E2967B13F008D415F /* SwiftUI_BasicsApp.swift in Sources */,
 				9883364B296A93BC00A8D1D6 /* Image Constants.swift in Sources */,
+				98833659296AB2F600A8D1D6 /* AsyncedImage4.swift in Sources */,
 				9883364D296A9BEE00A8D1D6 /* ImagesView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
