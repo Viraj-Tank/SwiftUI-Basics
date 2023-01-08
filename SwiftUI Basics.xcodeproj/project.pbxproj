@@ -10,6 +10,9 @@
 		985A83ED296ADF0200A11DD9 /* CodeSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985A83EC296ADF0200A11DD9 /* CodeSnippet.swift */; };
 		985A83EF296AE30200A11DD9 /* ButtonSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985A83EE296AE30200A11DD9 /* ButtonSnippet.swift */; };
 		985A83F1296AF4C900A11DD9 /* GradientTextViewSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985A83F0296AF4C900A11DD9 /* GradientTextViewSnippet.swift */; };
+		985A83F3296AF7B900A11DD9 /* ViewAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985A83F2296AF7B900A11DD9 /* ViewAnimations.swift */; };
+		985A83F5296AFC8400A11DD9 /* AvatarSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985A83F4296AFC8400A11DD9 /* AvatarSnippet.swift */; };
+		985A83F7296AFD1E00A11DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985A83F6296AFD1E00A11DD9 /* Assets.xcassets */; };
 		98833640296A775A00A8D1D6 /* GridBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883363F296A775A00A8D1D6 /* GridBasics.swift */; };
 		98833642296A77DD00A8D1D6 /* GridBasics2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833641296A77DD00A8D1D6 /* GridBasics2.swift */; };
 		98833644296A7EC800A8D1D6 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833643296A7EC800A8D1D6 /* NavigationView.swift */; };
@@ -33,6 +36,9 @@
 		985A83EC296ADF0200A11DD9 /* CodeSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnippet.swift; sourceTree = "<group>"; };
 		985A83EE296AE30200A11DD9 /* ButtonSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSnippet.swift; sourceTree = "<group>"; };
 		985A83F0296AF4C900A11DD9 /* GradientTextViewSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientTextViewSnippet.swift; sourceTree = "<group>"; };
+		985A83F2296AF7B900A11DD9 /* ViewAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnimations.swift; sourceTree = "<group>"; };
+		985A83F4296AFC8400A11DD9 /* AvatarSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarSnippet.swift; sourceTree = "<group>"; };
+		985A83F6296AFD1E00A11DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9883363F296A775A00A8D1D6 /* GridBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBasics.swift; sourceTree = "<group>"; };
 		98833641296A77DD00A8D1D6 /* GridBasics2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBasics2.swift; sourceTree = "<group>"; };
 		98833643296A7EC800A8D1D6 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
@@ -71,6 +77,9 @@
 				985A83EC296ADF0200A11DD9 /* CodeSnippet.swift */,
 				985A83EE296AE30200A11DD9 /* ButtonSnippet.swift */,
 				985A83F0296AF4C900A11DD9 /* GradientTextViewSnippet.swift */,
+				985A83F2296AF7B900A11DD9 /* ViewAnimations.swift */,
+				985A83F4296AFC8400A11DD9 /* AvatarSnippet.swift */,
+				985A83F6296AFD1E00A11DD9 /* Assets.xcassets */,
 			);
 			path = CodeSnippets;
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 			files = (
 				98C6BB262967B141008D415F /* Preview Assets.xcassets in Resources */,
 				98C6BB222967B141008D415F /* Assets.xcassets in Resources */,
+				985A83F7296AFD1E00A11DD9 /* Assets.xcassets in Resources */,
 				98833649296A936900A8D1D6 /* ImageAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,10 +215,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				98C6BB202967B13F008D415F /* ContentView.swift in Sources */,
+				985A83F3296AF7B900A11DD9 /* ViewAnimations.swift in Sources */,
 				98833651296AA0DE00A8D1D6 /* ImagesView4.swift in Sources */,
 				98833657296AB11F00A8D1D6 /* AsyncedImage3.swift in Sources */,
 				98833655296AA65600A8D1D6 /* AsycnedImage2.swift in Sources */,
 				98833642296A77DD00A8D1D6 /* GridBasics2.swift in Sources */,
+				985A83F5296AFC8400A11DD9 /* AvatarSnippet.swift in Sources */,
 				98833647296A935300A8D1D6 /* ImagesView.swift in Sources */,
 				985A83ED296ADF0200A11DD9 /* CodeSnippet.swift in Sources */,
 				985A83F1296AF4C900A11DD9 /* GradientTextViewSnippet.swift in Sources */,
