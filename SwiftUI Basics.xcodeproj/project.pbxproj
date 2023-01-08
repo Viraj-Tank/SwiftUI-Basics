@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		985A83ED296ADF0200A11DD9 /* CodeSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985A83EC296ADF0200A11DD9 /* CodeSnippet.swift */; };
+		985A83EF296AE30200A11DD9 /* ButtonSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985A83EE296AE30200A11DD9 /* ButtonSnippet.swift */; };
+		985A83F1296AF4C900A11DD9 /* GradientTextViewSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985A83F0296AF4C900A11DD9 /* GradientTextViewSnippet.swift */; };
 		98833640296A775A00A8D1D6 /* GridBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883363F296A775A00A8D1D6 /* GridBasics.swift */; };
 		98833642296A77DD00A8D1D6 /* GridBasics2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833641296A77DD00A8D1D6 /* GridBasics2.swift */; };
 		98833644296A7EC800A8D1D6 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833643296A7EC800A8D1D6 /* NavigationView.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		985A83EC296ADF0200A11DD9 /* CodeSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnippet.swift; sourceTree = "<group>"; };
+		985A83EE296AE30200A11DD9 /* ButtonSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSnippet.swift; sourceTree = "<group>"; };
+		985A83F0296AF4C900A11DD9 /* GradientTextViewSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientTextViewSnippet.swift; sourceTree = "<group>"; };
 		9883363F296A775A00A8D1D6 /* GridBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBasics.swift; sourceTree = "<group>"; };
 		98833641296A77DD00A8D1D6 /* GridBasics2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBasics2.swift; sourceTree = "<group>"; };
 		98833643296A7EC800A8D1D6 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
@@ -59,6 +65,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		985A83EB296ADEEF00A11DD9 /* CodeSnippets */ = {
+			isa = PBXGroup;
+			children = (
+				985A83EC296ADF0200A11DD9 /* CodeSnippet.swift */,
+				985A83EE296AE30200A11DD9 /* ButtonSnippet.swift */,
+				985A83F0296AF4C900A11DD9 /* GradientTextViewSnippet.swift */,
+			);
+			path = CodeSnippets;
+			sourceTree = "<group>";
+		};
 		98833645296A933600A8D1D6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +95,7 @@
 		98C6BB112967B13F008D415F = {
 			isa = PBXGroup;
 			children = (
+				985A83EB296ADEEF00A11DD9 /* CodeSnippets */,
 				98833645296A933600A8D1D6 /* Images */,
 				98C6BB1C2967B13F008D415F /* SwiftUI Basics */,
 				98C6BB1B2967B13F008D415F /* Products */,
@@ -193,12 +210,15 @@
 				98833655296AA65600A8D1D6 /* AsycnedImage2.swift in Sources */,
 				98833642296A77DD00A8D1D6 /* GridBasics2.swift in Sources */,
 				98833647296A935300A8D1D6 /* ImagesView.swift in Sources */,
+				985A83ED296ADF0200A11DD9 /* CodeSnippet.swift in Sources */,
+				985A83F1296AF4C900A11DD9 /* GradientTextViewSnippet.swift in Sources */,
 				98833644296A7EC800A8D1D6 /* NavigationView.swift in Sources */,
 				98833653296AA4E500A8D1D6 /* AsyncedImage.swift in Sources */,
 				9883364F296A9D6F00A8D1D6 /* ImagesView3.swift in Sources */,
 				98833640296A775A00A8D1D6 /* GridBasics.swift in Sources */,
 				98C6BB1E2967B13F008D415F /* SwiftUI_BasicsApp.swift in Sources */,
 				9883364B296A93BC00A8D1D6 /* Image Constants.swift in Sources */,
+				985A83EF296AE30200A11DD9 /* ButtonSnippet.swift in Sources */,
 				98833659296AB2F600A8D1D6 /* AsyncedImage4.swift in Sources */,
 				9883364D296A9BEE00A8D1D6 /* ImagesView2.swift in Sources */,
 			);
