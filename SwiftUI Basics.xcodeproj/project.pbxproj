@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98833640296A775A00A8D1D6 /* GridBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883363F296A775A00A8D1D6 /* GridBasics.swift */; };
+		98833642296A77DD00A8D1D6 /* GridBasics2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833641296A77DD00A8D1D6 /* GridBasics2.swift */; };
 		98C6BB1E2967B13F008D415F /* SwiftUI_BasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C6BB1D2967B13F008D415F /* SwiftUI_BasicsApp.swift */; };
 		98C6BB202967B13F008D415F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C6BB1F2967B13F008D415F /* ContentView.swift */; };
 		98C6BB222967B141008D415F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C6BB212967B141008D415F /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9883363F296A775A00A8D1D6 /* GridBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBasics.swift; sourceTree = "<group>"; };
+		98833641296A77DD00A8D1D6 /* GridBasics2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBasics2.swift; sourceTree = "<group>"; };
 		98C6BB1A2967B13F008D415F /* SwiftUI Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Basics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C6BB1D2967B13F008D415F /* SwiftUI_BasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicsApp.swift; sourceTree = "<group>"; };
 		98C6BB1F2967B13F008D415F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			children = (
 				98C6BB1D2967B13F008D415F /* SwiftUI_BasicsApp.swift */,
 				98C6BB1F2967B13F008D415F /* ContentView.swift */,
+				9883363F296A775A00A8D1D6 /* GridBasics.swift */,
+				98833641296A77DD00A8D1D6 /* GridBasics2.swift */,
 				98C6BB212967B141008D415F /* Assets.xcassets */,
 				98C6BB232967B141008D415F /* SwiftUI_Basics.entitlements */,
 				98C6BB242967B141008D415F /* Preview Content */,
@@ -140,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				98C6BB202967B13F008D415F /* ContentView.swift in Sources */,
+				98833642296A77DD00A8D1D6 /* GridBasics2.swift in Sources */,
+				98833640296A775A00A8D1D6 /* GridBasics.swift in Sources */,
 				98C6BB1E2967B13F008D415F /* SwiftUI_BasicsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
