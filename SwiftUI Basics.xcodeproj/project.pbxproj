@@ -26,6 +26,7 @@
 		98833655296AA65600A8D1D6 /* AsycnedImage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833654296AA65600A8D1D6 /* AsycnedImage2.swift */; };
 		98833657296AB11F00A8D1D6 /* AsyncedImage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833656296AB11F00A8D1D6 /* AsyncedImage3.swift */; };
 		98833659296AB2F600A8D1D6 /* AsyncedImage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98833658296AB2F600A8D1D6 /* AsyncedImage4.swift */; };
+		98A56C3E2973B85800F06F3A /* AnimatedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A56C3D2973B85800F06F3A /* AnimatedTextView.swift */; };
 		98C6BB1E2967B13F008D415F /* SwiftUI_BasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C6BB1D2967B13F008D415F /* SwiftUI_BasicsApp.swift */; };
 		98C6BB202967B13F008D415F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C6BB1F2967B13F008D415F /* ContentView.swift */; };
 		98C6BB222967B141008D415F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C6BB212967B141008D415F /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		98833654296AA65600A8D1D6 /* AsycnedImage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsycnedImage2.swift; sourceTree = "<group>"; };
 		98833656296AB11F00A8D1D6 /* AsyncedImage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncedImage3.swift; sourceTree = "<group>"; };
 		98833658296AB2F600A8D1D6 /* AsyncedImage4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncedImage4.swift; sourceTree = "<group>"; };
+		98A56C3D2973B85800F06F3A /* AnimatedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTextView.swift; sourceTree = "<group>"; };
 		98C6BB1A2967B13F008D415F /* SwiftUI Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Basics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C6BB1D2967B13F008D415F /* SwiftUI_BasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicsApp.swift; sourceTree = "<group>"; };
 		98C6BB1F2967B13F008D415F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,9 +103,18 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		98A56C3C2973B83E00F06F3A /* Animate */ = {
+			isa = PBXGroup;
+			children = (
+				98A56C3D2973B85800F06F3A /* AnimatedTextView.swift */,
+			);
+			path = Animate;
+			sourceTree = "<group>";
+		};
 		98C6BB112967B13F008D415F = {
 			isa = PBXGroup;
 			children = (
+				98A56C3C2973B83E00F06F3A /* Animate */,
 				985A83EB296ADEEF00A11DD9 /* CodeSnippets */,
 				98833645296A933600A8D1D6 /* Images */,
 				98C6BB1C2967B13F008D415F /* SwiftUI Basics */,
@@ -222,6 +233,7 @@
 				98833642296A77DD00A8D1D6 /* GridBasics2.swift in Sources */,
 				985A83F5296AFC8400A11DD9 /* AvatarSnippet.swift in Sources */,
 				98833647296A935300A8D1D6 /* ImagesView.swift in Sources */,
+				98A56C3E2973B85800F06F3A /* AnimatedTextView.swift in Sources */,
 				985A83ED296ADF0200A11DD9 /* CodeSnippet.swift in Sources */,
 				985A83F1296AF4C900A11DD9 /* GradientTextViewSnippet.swift in Sources */,
 				98833644296A7EC800A8D1D6 /* NavigationView.swift in Sources */,
